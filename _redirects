@@ -2,6 +2,10 @@
 /robots.txt    /robots.txt    200
 /sitemap.xml   /sitemap.xml   200
 
+# Standalone static pages (served before the SPA fallback below)
+/campus-tour       /campus-tour.html    200
+/campus-tour/      /campus-tour.html    200
+
 # Fix bogus nested /work/work/ and /blog/work/ paths — 301 redirect to correct URL
 /work/work/supernova              /work/supernova              301
 /work/work/union-camp             /work/union-camp             301
